@@ -1,0 +1,16 @@
+
+{
+    "manifest_version":2,
+    "name": "Ad-Blocker",
+    "version": "1.0.0",
+    "description": "This Ad-Blocker will block all the unnecessary Ad request in the Our network",
+    "permissions":["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16":"icons/logo_16x16.png",
+        "48": "icons/logo_48x48.png",
+        "128": "icons/logo_128x128.png"
+    }
+}
